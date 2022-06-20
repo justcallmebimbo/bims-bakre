@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>special project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+            integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/mountain.png" alt="" width="100px" height="50px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="textbox">
+            <h1>Beambor Tech Ground</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis repellendus, <br> cupiditate dolore ex illum dolorum accusamus corporis dolorem possimus error?</p>
+            <a href="" class="hero-btn">Visit Us for More info</a>
+        
+        </div>
+    </section>
+
+    <!-- course -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magnam enim repudiandae veniam quas optio fuga nam dolores voluptatibus voluptate nostrum fugiat possimus hic error quis, repellendus eligendi? Accusantium exercitationem possimus porro ut sed molestias doloremque, fugiat laudantium quae odit?
+
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magnam enim repudiandae veniam quas optio
+                    fuga nam dolores voluptatibus voluptate nostrum fugiat possimus hic error quis, repellendus eligendi?
+                    Accusantium exercitationem possimus porro ut sed molestias doloremque, fugiat laudantium quae odit?
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magnam enim repudiandae veniam quas optio
+                    fuga nam dolores voluptatibus voluptate nostrum fugiat possimus hic error quis, repellendus eligendi?
+                    Accusantium exercitationem possimus porro ut sed molestias doloremque, fugiat laudantium quae odit? </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/gettyimages-171306436-612x612.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/washnigton.jpg" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./images/istockphoto-173761967-612x612.jpg" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- facilities -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+
+
+ <!-- javascript for toggle menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+
+    </script>
+</body>
+</html>
